@@ -46,11 +46,15 @@ To run the project:
 ### Clone the repository:
 Copy code
 
+```bash
 git clone https://github.com/matanyaki/Google-Project.git
+```
 ### Run the program:
 Copy code
 
+```bash
 python main.py
+```
 The program will initialize and enter the interactive query mode, providing auto-complete suggestions based on user input.
 ### 🧩 Technologies Used
  * Python for core functionality and the auto-complete feature.
