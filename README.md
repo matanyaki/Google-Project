@@ -9,20 +9,15 @@ The project operates in two main parts:
 To get started, clone the repository and follow the instructions for each part.
 
 **Clone the repository**:
-Copy code
 ```
 git clone https://github.com/matanyaki/Google-Project.git
 ```
 ### Part 1: General Auto-Complete
 Navigate to the Part 1 directory:
-
-Copy code
 ```
 cd src
 ```
 Run the general auto-complete program:
-
-Copy code
 ```
 python main.py
 ```
@@ -30,14 +25,10 @@ This will initialize the system and provide auto-complete suggestions based on t
 
 ### Part 2: Personalized Auto-Complete with LLM
 Navigate to the Part 2 directory:
-
-Copy code
 ```
 cd LLM
 ```
 Run the personalized auto-complete program:
-
-Copy code
 ```
 python GeminiAPI.py
 ```
