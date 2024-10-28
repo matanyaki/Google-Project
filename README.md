@@ -9,8 +9,8 @@ The system operates in two main phases:
  * Uses an inverted index to map words to their occurrences across text sources, allowing quick sentence retrieval based on user input.
  * **Thread Pool for Concurrent File Reading**: A thread pool is implemented to read files concurrently, significantly reducing loading times when processing large datasets.
  * Checksum Validation: A checksum file is generated during initialization to track changes in the source data:
-   * No Change Detected: Loads existing inverted indexes, skipping re-indexing.
-   *Change Detected: Rebuilds inverted indexes to reflect the updated data.
+   * **No Change Detected**: Loads existing inverted indexes, skipping re-indexing.
+   * **Change Detected**: Rebuilds inverted indexes to reflect the updated data.
 ### 2. Online Phase (Completion)
  * Uses the Levenshtein algorithm for fuzzy matching, allowing the system to suggest relevant completions even with minor spelling errors or typos in user input.
  * Returns the top five sentence completions based on relevance, proximity to input, and minor correction handling.
@@ -44,14 +44,12 @@ The project is designed for scalability and efficiency:
 To run the project:
 
 ### Clone the repository:
-
-bash
 Copy code
+
 git clone https://github.com/matanyaki/Google-Project.git
 ### Run the program:
-
-bash
 Copy code
+
 python main.py
 The program will initialize and enter the interactive query mode, providing auto-complete suggestions based on user input.
 ### 🧩 Technologies Used
