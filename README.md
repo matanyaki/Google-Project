@@ -9,37 +9,32 @@ The project operates in two main parts:
 To get started, clone the repository and follow the instructions for each part.
 
 **Clone the repository**:
-```
-bash
 Copy code
+```
 git clone https://github.com/matanyaki/Google-Project.git
 ```
 ### Part 1: General Auto-Complete
 Navigate to the Part 1 directory:
-```
-bash
 Copy code
+```
 cd src
 ```
 Run the general auto-complete program:
-```
-bash
 Copy code
+```
 python main.py
 ```
 This will initialize the system and provide auto-complete suggestions based on the dataset.
 
 ### Part 2: Personalized Auto-Complete with LLM
 Navigate to the Part 2 directory:
-```
-bash
 Copy code
+```
 cd LLM
 ```
 Run the personalized auto-complete program:
-```
-bash
 Copy code
+```
 python GeminiAPI.py
 ```
 This will connect to Google’s Gemini API to provide auto-complete suggestions customized to individual user history.
